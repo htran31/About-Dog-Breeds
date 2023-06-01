@@ -1,0 +1,114 @@
+<!--CIS 105/ Final/ Hoang Anh Tran-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<meta charset="utf-8"/>
+	<title>Samoyed</title>
+	<style>	
+		header, aside{
+			padding: 5%;
+			height: 200px;
+			background-image: url(images/samoyed-theme.jpg);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+		}
+		#topic{
+			text-decoration: none;
+		}
+		h1{ 
+			color: deeppink;
+			font-family: monospace;
+		}
+		footer p{ 
+			color: black;
+			font-family: sans-serif;
+			float: right;
+		}
+	</style>
+	<link rel="stylesheet" href="CSS/mystyles.css"/>
+</head>
+
+
+<body>
+	<header role="banner" style="color: blue;">
+		<a href="#samoyed"><img id="cartoon" src="images/samoyed-cartoon.jpg" alt="Samoyed Cartoon"/></a>
+		<div class="intro">
+			<h3><a id="topic" href="#samoyed">Learn about Samoyed</a></h3>
+			<nav>
+				<ol>
+					<li><a href="#history">History</a></li>
+					<li><a href="#personality">Personality</a></li>
+					<li><a href="#video">Video</a></li>
+
+				</ol>
+			</nav>	
+		</div>
+	</header>
+
+
+	<main role="main">
+		<article class="container" style="background-color: #e0c7c659;">
+			<h1 id="samoyed">Samoyed</h1>
+			<p>The Samoyed combines <em>strength, agility, dignity, and grace</em> in a general spitz outline. Slightly longer than they are tall, they are nonetheless compact. They have a strong, muscular body that is able to combine power, speed, agility, and endurance. They have a quick, agile stride with good reach and drive.</p>
+			<img src="images/samoyed.jpg" alt="Samoyed"/>
+			<p>Their double coat is heavy and weather resistant. Their undercoat is soft and thick, whereas the outer coat is straight and harsh, standing straight out from their body, and glistening with a silver sheen. Their expression is often animated, with the characteristic <span style="color:blue;">“Samoyed smile”</span> created by the upcurved corners of their mouth.</p>
+			
+
+			<h1 id="history">History</h1>
+			<p>Samoyed, also known by the nicknames Sammy and Smiley, belongs to the Spitz family and group of Working Dogs. Samoyed is one of the oldest dog breeds. It was created thousands of years ago by indigenous people of Siberia called Samoyeds.</p>
+			<img src="images/samoyed1.jpg" alt="Samoyed-1"/>
+			<p>Samoyed was used to pull the sleds, herd the reindeer, keep its owners warm during the night and to facilitate hunting. Despite its long history, Samoyed was brought to Europe and America a little more than 100 years ago. This beautiful, fluffy dog is mostly kept as a house pet and as a show dog today.</p>
+			<img src="images/samoyed2.jpg" alt="Samoyed-2"/>
+
+
+			<h1 id="personality">Personality</h1>
+			<p>The Samoyed is a friendly, personable dog. These are intelligent dogs, with a touch of independence. Bred to live in a tent in very close quarters with their families, they thrive on human company. Samoyeds will alarm bark and, if left alone for long periods of time, will often develop into nuisance barkers. Digging can be a problem because they dig to reach a cool resting place.</p>
+			<img src="images/samoyed3.jpg" alt="Samoyed-3"/>
+			<p>Samoyeds tend to get along well with other dogs as well as people and with other pets they are raised with. They are herding dogs and may show some tendency to chase or nip. In general, they get along well with children, although they can be a little boisterous for small toddlers.</p>
+
+
+			<h1 id="video">Video</h1>
+			<!--1 media element on at least one page-->
+			<iframe width=100% height="534" src="https://www.youtube.com/embed/DnqrDqw-D0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</article>
+
+
+		<!--Author's Box-->
+		<div class="container" style="background-color: #d6b4b2";>
+			<img id="author-img" src="images/author.jfif" alt="Toom"/>
+			<h3>TOOM</h3>
+			<cite>Toom is an animal lover, especially dogs. All her ideas and life are inspired by the theme of dogs. That's because animals and dogs spread endless joy and positive spirits every day. Being around them or thinking about them all the time makes us happier and more optimistic.</cite>
+			<div class="icon">
+				<img id="facebook" src="images/facebook.png" alt="Facebook"/>
+				<img id="instagram" src="images/instagram.png" alt="Instagram"/>
+				<img id="twitter" src="images/twitter.png" alt="Twitter"/>
+			</div>
+		</div>
+	</main>
+
+
+	<aside role="complementary">
+		<h1 style="color: blue;">Some other dog breeds</h1>
+		<nav>
+			<dl>
+				<li><a href="malamute.html">Alaska Malamute</a></li>
+				<li><a href="golden.html">Golden Retriever</a></li>
+				<li><a href="#chinook">Chinook</a></li>
+				<li><a href="#greenland">Greenland</a></li>
+			</dl>
+		</nav>
+	</aside>
+
+
+	<footer>
+		<p><small>&copy; Copyright <span style="color: deeppink;">All About Dog Breeds</span></small></p>
+	</footer>
+	
+</body>
+</html>

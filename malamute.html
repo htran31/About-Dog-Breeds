@@ -1,0 +1,131 @@
+<!--CIS 105/ Final/ Hoang Anh Tran-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<meta charset="utf-8"/>
+	<title>Alaska Malamute</title>
+	<style>	
+		header, aside{
+			padding: 5%;
+			height: 200px;
+			background-image: url(images/alaska-theme.jpg);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+		}
+		#topic{
+			color: white;
+			text-decoration: none;
+		}
+		h1{ 
+			color: dodgerblue;
+			font-family: monospace;
+			text-transform: uppercase;
+		}
+		footer p{ 
+			color: red;
+			font-family: sans-serif;
+			float: right;
+		}
+	</style>
+	<link rel="stylesheet" href="CSS/mystyles.css"/>
+</head>
+
+
+<body>
+	<header role="banner" style="color: blue;">
+		<a href="#malamute">
+			<img id="cartoon" src="images/alaska-cartoon.jpg" alt="Malamute Cartoon"/>
+		</a>
+		<div class="intro">
+			<h3><a id="topic" href="#malamute">Learn about Alaska Malamute</a></h3>
+			<nav>
+				<ol>
+					<li>
+						<!--1 element must be nested 5 levels deep: body > header > div > nav > ol > li-->
+						<a href="#origin">Origin</a>
+					</li>
+					<li>
+						<a href="#color">Coat color</a>
+					</li>
+					<li>
+						<a href="#size">Size</a>
+					</li>
+				</ol>
+			</nav>	
+		</div>
+	</header>
+
+
+	<main role="main">
+		<article class="container" style="background-color: #80c0ff40";>
+			<h1 id="malamute">Alaskan Malamute</h1>
+			<p>The Alaskan Malamute has a <em>majestic beauty</em> with a thick mane, <span style="color:blue;">the largest size</span> of the sled dog breeds, giving Alaska a striking and majestic appearance. Every time the Alaskan dog appears on the street, it stands out and <em>attracts everyone's eyes.</em></p>
+			<img src="images/alaskan.jpg" alt="Alaska Malamute"/>
+
+
+			<h1 id="origin">Origin</h1>
+			<p>Alaska originated in from wolves, domesticated by the people of the Mahlemute tribe, then the Eskimos of Alaska trained these Malamute dogs to do sled work.</p>
+			<img src="images/origin.jpg" alt="Origin"/>
+			<p>Although it is descended from wolves, Alaska has been selected for genetic resources for thousands of years to make the current Alaskan dog extremely friendly with people, hard-working, and loyal. That's why Alaska could become a sled dog breed and is the best friend of the people of Alaska.</p>
+
+
+			<h1 id="color">Coat color</h1>
+			<p>Some basic colors of the Alaska Malamute: Black & white, Mink & White, Red & White, Gray & white, Seal & White, and Brown & white.</p>
+			<img src="images/color.jpg" alt="Coat Color"/>
+
+
+			<h1 id="size">Size (adults)</h1>
+			<nav>
+				<dl>
+					<dt>Weight</dt>
+					<dd>Female: 32–38 kg</dd> 
+					<dd>Male: 36–43 kg</dd>
+
+					<dt>Height</dt> 
+					<dd>Female: 56–61 cm</dd>
+					<dd>Male: 61–66 cm</dd>
+				</dl>
+			</nav>
+			<img src="images/size.jpg" alt="Size"/>
+		</article>
+
+
+		<!--Author's Box-->
+		<div class="container" style="background-color: #a9dcfffa";>
+			<img id="author-img" src="images/author.jpg" alt="Toom"/>
+			<h3>TOOM</h3>
+			<cite>Toom is an animal lover, especially dogs. All her ideas and life are inspired by the theme of dogs. That's because animals and dogs spread endless joy and positive spirits every day. Being around them or thinking about them all the time makes us happier and more optimistic.</cite>
+			<div class="icon">
+				<img id="facebook" src="images/facebook.png" alt="Facebook"/>
+				<img id="instagram" src="images/instagram.png" alt="Instagram"/>
+				<img id="twitter" src="images/twitter.png" alt="Twitter"/>
+			</div>
+		</div>
+	</main>
+
+
+	<aside role="complementary">
+		<h1 style="color: white;">Some other dog breeds</h1>
+		<nav>
+			<ul>
+				<li><a href="samoyed.html">Samoyed</a></li>
+				<li><a href="golden.html">Golden Retriever</a></li>
+				<li><a href="#papipoo">Papipoo</a></li>
+				<li><a href="#corgi">Pembroke Welsh Corgi</a></li>
+			</ul>
+		</nav>
+	</aside>
+
+
+	<footer>
+		<p><small>&copy; Copyright <span style="color:blue">All About Dog Breeds</span></small></p>
+	</footer>
+
+</body>
+</html>

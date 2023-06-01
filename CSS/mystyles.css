@@ -1,0 +1,51 @@
+.container{
+	margin-right: 15%;
+	margin-left: 15%;
+	padding: 2%;		
+}
+#cartoon{
+  	max-width: 120px;
+  	float: left;
+  	margin-right: 50px;
+  	border: 10px double floralwhite;
+}	
+#intro{ 
+	width: cal(100% - 120px - 50px);
+	float: right;
+}
+#malamute, #samoyed, #golden{
+	color: blue;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 25pt;
+	font-style: italic;
+}
+img{
+	max-width: 50%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+dl{
+	margin-left: 50px;
+}
+dt{
+	font-weight: bold;
+}
+#author-img{
+	max-width: 50px;
+	float: left;
+	margin-right: 2%;
+	border: 2px solid white;
+}
+.icon{
+	display: flex;
+    column-gap: 5px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#facebook, #instagram, #twitter{
+	max-width: 40px;
+	max-height: 40px;
+	margin: 10px;
+}
